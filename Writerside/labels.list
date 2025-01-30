@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
+<labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+
+    <primary-label id="ystore" short-name="ystore" name="yStore" href="https://www.ystoreplugins.com.br" color="red">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="api" short-name="api" name="API" href="https://www.ystoreplugins.com.br" color="blue">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="errors" short-name="erros" name="Erros comuns" href="https://www.ystoreplugins.com.br" color="red">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="suggestions" short-name="sugestões" name="Sugestões aceitas" href="https://www.ystoreplugins.com.br" color="tangerine">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="placeholders" short-name="placeholders" name="Placeholders" href="https://www.ystoreplugins.com.br" color="strawberry">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="chat" short-name="chat" name="Chat" href="https://www.ystoreplugins.com.br" color="purple">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+    <primary-label id="api" short-name="api" name="API" href="https://www.ystoreplugins.com.br" color="blue">
+        Vá para www.ystoreplugins.com.br
+    </primary-label>
+
+
+    <secondary-label id="wip" name="WIP" color="purple">Work in progress</secondary-label>
+    <secondary-label id="beta" name="β" color="tangerine">Beta</secondary-label>
+
+    <secondary-label id="rankup" name="RankUP" color="purple">Plugins com a categoria de RankUP</secondary-label>
+    <secondary-label id="factions" name="Factions" color="purple">Plugins com a categoria de Factions</secondary-label>
+    <secondary-label id="management" name="Gestão" color="purple">Plugins com a categoria de Gestão</secondary-label>
+    <secondary-label id="utility" name="Utilidades" color="purple">Plugins com a categoria de Utilidades</secondary-label>
+    <secondary-label id="addons" name="Addons" color="purple">Plugins com a categoria de Addons</secondary-label>
+
+
+    <secondary-label id="1.8" name="1.8" color="blue">Versão 1.8</secondary-label>
+    <secondary-label id="1.9" name="1.9" color="blue">Versão 1.9</secondary-label>
+    <secondary-label id="1.10" name="1.10" color="blue">Versão 1.10</secondary-label>
+    <secondary-label id="1.11" name="1.11" color="blue">Versão 1.11</secondary-label>
+    <secondary-label id="1.12" name="1.12" color="blue">Versão 1.12</secondary-label>
+    <secondary-label id="1.13" name="1.13" color="blue">Versão 1.13</secondary-label>
+    <secondary-label id="1.14" name="1.14" color="blue">Versão 1.14</secondary-label>
+    <secondary-label id="1.15" name="1.15" color="blue">Versão 1.15</secondary-label>
+    <secondary-label id="1.16" name="1.16" color="blue">Versão 1.16</secondary-label>
+    <secondary-label id="1.17" name="1.17" color="blue">Versão 1.17</secondary-label>
+    <secondary-label id="1.18" name="1.18" color="blue">Versão 1.18</secondary-label>
+    <secondary-label id="1.19" name="1.19" color="blue">Versão 1.19</secondary-label>
+    <secondary-label id="1.20" name="1.20" color="blue">Versão 1.20</secondary-label>
+    <secondary-label id="1.21" name="1.21" color="blue">Versão 1.21</secondary-label>
+
+</labels>

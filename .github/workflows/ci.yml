@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  pull_request:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  INSTANCE: 'Writerside/in'
+  DOCKER_VERSION: '243.22562'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10  # Adiciona timeout global para o job
+    outputs:
+      algolia_artifact: ${{ steps.define-ids.outputs.algolia_artifact }}
+      artifact: ${{ steps.define-ids.outputs.artifact }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Verify Writerside structure
+        run: |
+          if [ ! -d "Writerside" ]; then
+            echo "Error: Writerside directory not found"
+            exit 1
+          fi
+          if [ ! -d "Writerside/in" ]; then
+            echo "Error: Instance directory not found"
+            exit 1
+          fi
+          if [ ! -f "Writerside/writerside.cfg" ]; then
+            echo "Error: writerside.cfg not found"
+            exit 1
+          fi
+          ls -la Writerside/
+          
+      - name: Define instance id and artifacts
+        id: define-ids
+        run: |
+          INSTANCE=${INSTANCE#*/}
+          INSTANCE_ID_UPPER=$(echo "$INSTANCE" | tr '[:lower:]' '[:upper:]')
+          ARTIFACT="webHelp${INSTANCE_ID_UPPER}2-all.zip"
+          ALGOLIA_ARTIFACT="algolia-indexes-${INSTANCE_ID_UPPER}.zip"
+          echo "INSTANCE_ID_UPPER=$INSTANCE_ID_UPPER" >> $GITHUB_ENV
+          echo "ARTIFACT=$ARTIFACT" >> $GITHUB_ENV
+          echo "ALGOLIA_ARTIFACT=$ALGOLIA_ARTIFACT" >> $GITHUB_ENV
+          echo "artifact=$ARTIFACT" >> $GITHUB_OUTPUT
+          echo "algolia_artifact=$ALGOLIA_ARTIFACT" >> $GITHUB_OUTPUT
+        timeout-minutes: 1
+
+      - name: Check Docker version
+        run: docker --version
+        timeout-minutes: 1
+
+      - name: Build docs using Writerside Docker builder
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+        timeout-minutes: 5
+        continue-on-error: false
+        
+      - name: Setup Docker
+        run: |
+          docker system prune -a -f
+          docker info
+          
+      - name: Build docs using Writerside Docker builder
+        if: success()  # Só executa se os passos anteriores foram bem sucedidos
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs
+          path: |
+            artifacts/${{ steps.define-ids.outputs.artifact }}
+            artifacts/report.json
+            artifacts/${{ steps.define-ids.outputs.algolia_artifact }}
+          retention-days: 7
+        timeout-minutes: 2
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docs
+          path: artifacts
+
+      - name: Setup Docker for testing
+        run: |
+          docker system prune -a -f
+          docker info
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE }}
+        env:
+          DOCKER_BUILDKIT: 1
