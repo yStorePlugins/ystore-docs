@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 env:
-  INSTANCE: 'in'
+  INSTANCE: 'Writerside/in'
   DOCKER_VERSION: '243.22562'
 
 jobs:
@@ -32,15 +32,15 @@ jobs:
             echo "Error: Writerside directory not found"
             exit 1
           fi
-          if [ ! -d "in" ]; then
+          if [ ! -d "Writerside/in" ]; then
             echo "Error: Instance directory not found"
             exit 1
           fi
-          if [ ! -f "writerside.cfg" ]; then
+          if [ ! -f "Writerside/writerside.cfg" ]; then
             echo "Error: writerside.cfg not found"
             exit 1
           fi
-          ls -la
+          ls -la Writerside/
           
       - name: Define instance id and artifacts
         id: define-ids
