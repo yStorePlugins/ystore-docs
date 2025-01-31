@@ -131,8 +131,10 @@ yclans.clan.spy - Permissão para o /clan spy
 yclans.clan.entrar - Permissão para o /clan entrar
 yclans.clan.deletar - Permissão para o /clan deletar
 yclans.clan.reload - Permissão para o /clan reload
-yclans.clan.givespecialitem - Permissão para o /clan givespecialitem sim</code-block>
+yclans.clan.givespecialitem - Permissão para o /clan givespecialitem</code-block>
 </chapter>
+
+
 
 
 
