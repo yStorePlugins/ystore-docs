@@ -91,17 +91,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           name: docs
           path: artifacts
 
-      - name: Setup Docker for testing
-        run: |
-          docker system prune -a -f
-          docker info
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
