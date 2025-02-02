@@ -80,8 +80,10 @@ Uma nova forma de gerenciar clans no servidor, conta com baú do clan, banco e m
 /clan entrar - Força a entrada em um clan
 /clan deletar - Deleta um clan
 /clan reload - Recarrega os arquivos de configuração
-/clan givespecialitem - Dá itens especiais para um jogador ss teste</code-block>
+/clan givespecialitem - Dá itens especiais para um jogador</code-block>
 </chapter>
+
+
 
 
 
