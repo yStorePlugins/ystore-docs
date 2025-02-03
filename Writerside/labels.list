@@ -30,8 +30,7 @@
     <primary-label id="api" short-name="api" name="API" href="https://www.ystoreplugins.com.br" color="blue">
         Vá para www.ystoreplugins.com.br
     </primary-label>
-
-
+    
     <secondary-label id="wip" name="WIP" color="purple">Work in progress</secondary-label>
     <secondary-label id="beta" name="β" color="tangerine">Beta</secondary-label>
 
@@ -40,6 +39,7 @@
     <secondary-label id="management" name="Gestão" color="purple">Plugins com a categoria de Gestão</secondary-label>
     <secondary-label id="utility" name="Utilidades" color="purple">Plugins com a categoria de Utilidades</secondary-label>
     <secondary-label id="addons" name="Addons" color="purple">Plugins com a categoria de Addons</secondary-label>
+    <secondary-label id="discord" name="Discord" color="purple">Documentação referente ao ystore-bot</secondary-label>
 
 
     <secondary-label id="1.8" name="1.8" color="blue">Versão 1.8</secondary-label>
