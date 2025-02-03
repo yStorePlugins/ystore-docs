@@ -8,6 +8,14 @@
 
     <toc-element topic="documentation.md"/>
     <toc-element topic="yplugins.md"/>
+    <toc-element topic="discord.md">
+        <toc-element topic="link-account.md"/>
+        <toc-element topic="medals.md"/>
+        <toc-element topic="notifications.md"/>
+        <toc-element topic="promotion.md"/>
+        <toc-element topic="suggestions.md"/>
+        <toc-element topic="tickets.md"/>
+    </toc-element>
     <toc-element topic="rankup.md">
         <toc-element topic="ytorredecacto.md"/>
         <toc-element topic="yfloresta.md"/>
@@ -149,14 +157,6 @@
         <toc-element topic="ylobbympetaddon.md"/>
         <toc-element topic="ystackbossesmpetaddon.md"/>
         <toc-element topic="ytopspapiaddon.md"/>
-    </toc-element>
-    <toc-element topic="discord.md">
-        <toc-element topic="link-account.md"/>
-        <toc-element topic="medals.md"/>
-        <toc-element topic="notifications.md"/>
-        <toc-element topic="promotion.md"/>
-        <toc-element topic="suggestions.md"/>
-        <toc-element topic="tickets.md"/>
     </toc-element>
 
 </instance-profile>

@@ -15,5 +15,6 @@ Esta documentação está disponível no GitHub da yStore. Você é livre para f
         <a href="management.md"/>
         <a href="utility.md"/>
         <a href="addons.md"/>
+        <a href="discord.md"/>
     </category>
 </seealso>

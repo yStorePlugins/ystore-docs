@@ -41,5 +41,6 @@ public static ClanAPIHolder getAPI() {
         <a href="management.md"/>
         <a href="utility.md"/>
         <a href="addons.md"/>
+        <a href="discord.md"/>
     </category>
 </seealso>
