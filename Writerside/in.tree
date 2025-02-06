@@ -1,309 +1,464 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <instance-profile id="in" is-library="false" name="Documentação yStore" start-page="documentation.md" status="release">
-        
-    <toc-element topic="documentation.md"/>
-        
-    <toc-element topic="yplugins.md"/>
-        
-    <toc-element topic="discord.md">
-                
-        <toc-element topic="link-account.md"/>
-                
-        <toc-element topic="medals.md"/>
-                
-        <toc-element topic="notifications.md"/>
-                
-        <toc-element topic="promotion.md"/>
-                
-        <toc-element topic="suggestions.md"/>
-                
-        <toc-element topic="tickets.md"/>
             
-    </toc-element>
-        
-    <toc-element topic="rankup.md">
-                
-        <toc-element topic="ytorredecacto.md"/>
-                
-        <toc-element topic="yfloresta.md"/>
-                
-        <toc-element topic="yminaspackets.md"/>
-                
-        <toc-element topic="ymaquinasvirtuais.md"/>
-                
-        <toc-element topic="yminasafk.md"/>
-                
-        <toc-element topic="yclearplot.md"/>
-                
-        <toc-element topic="ycampo.md"/>
-                
-        <toc-element topic="ystackbosses.md"/>
-                
-        <toc-element topic="ymito.md"/>
-                
-        <toc-element topic="ybossarena.md"/>
-                
-        <toc-element topic="ycratesvirtuais.md"/>
-                
-        <toc-element topic="ypesca.md"/>
-                
-        <toc-element topic="ymaquinas.md"/>
-                
-        <toc-element topic="yminas.md"/>
-                
-        <toc-element topic="yspawners.md"/>
-                
-        <toc-element topic="yclansutils.md"/>
-                
-        <toc-element topic="yautovender.md"/>
-                
-        <toc-element topic="ycheques.md"/>
-                
-        <toc-element topic="ytesouros.md"/>
-                
-        <toc-element topic="ybosses.md"/>
-                
-        <toc-element topic="yspawnersshop.md"/>
-                
-        <toc-element topic="ypescasimples.md"/>
-                
-        <toc-element topic="yrankup.md"/>
-                
-        <toc-element topic="ylootingstack.md"/>
-                
-        <toc-element topic="yalmas.md"/>
-                
-        <toc-element topic="yspawnersvirtuais.md"/>
-                
-        <toc-element topic="ybossesvirtuais.md"/>
-                
-        <toc-element topic="ybanco.md"/>
-                
-        <toc-element topic="yarmazem.md"/>
-                
-        <toc-element topic="yclans.md"/>
-            
-    </toc-element>
-        
-    <toc-element topic="factions.md">
-                
-        <toc-element topic="ymysteryboxes.md"/>
-                
-        <toc-element topic="yfbau.md"/>
-                
-        <toc-element topic="yminedrops.md"/>
-                
-        <toc-element topic="yreparacao.md"/>
-                
-        <toc-element topic="yenchants.md"/>
-            
-    </toc-element>
-        
-    <toc-element topic="management.md">
-                
-        <toc-element topic="yleilao.md"/>
-                
-        <toc-element topic="yplayershop.md"/>
-                
-        <toc-element topic="yjail.md"/>
-                
-        <toc-element topic="ypunish.md"/>
-                
-        <toc-element topic="ypayments.md"/>
-                
-        <toc-element topic="yvips.md"/>
-                
-        <toc-element topic="yeconomias.md"/>
-                
-        <toc-element topic="ytops.md"/>
-                
-        <toc-element topic="ychestshop.md"/>
-                
-        <toc-element topic="ylobby.md"/>
-                
-        <toc-element topic="ydiscordhook.md"/>
-                
-        <toc-element topic="ykits.md"/>
-                
-        <toc-element topic="ycorreio.md"/>
-                
-        <toc-element topic="yreinicio.md"/>
-                
-        <toc-element topic="yessentials.md"/>
-                
-        <toc-element topic="yantigrief.md"/>
-                
-        <toc-element topic="ybaus.md"/>
-                
-        <toc-element topic="ylogger.md"/>
-                
-        <toc-element topic="yscreenshare.md"/>
-                
-        <toc-element topic="ybolsa.md"/>
-                
-        <toc-element topic="ypoints.md"/>
-                
-        <toc-element topic="yeconomy.md"/>
-                
-        <toc-element topic="yreports.md"/>
-                
-        <toc-element topic="ytaxarban.md"/>
-                
-        <toc-element topic="ylixeiro.md"/>
-                
-        <toc-element topic="ycombatlog.md"/>
-                
-        <toc-element topic="yshop.md"/>
-                
-        <toc-element topic="ypreferencias.md"/>
-                
-        <toc-element topic="ytutorial.md"/>
-                
-        <toc-element topic="ytickets.md"/>
-                
-        <toc-element topic="ymobsetspawn.md"/>
-                
-        <toc-element topic="ystafflogin.md"/>
-            
-        <toc-element topic="ymarket.md"/>
-    </toc-element>
-        
-    <toc-element topic="utility.md">
-                
-        <toc-element topic="yleagues.md"/>
-                
-        <toc-element topic="ytorneios.md"/>
-                
-        <toc-element topic="ypets.md"/>
-                
-        <toc-element topic="yroleta.md"/>
-                
-        <toc-element topic="ymanopla.md"/>
-                
-        <toc-element topic="yjogodobicho.md"/>
-                
-        <toc-element topic="ymascots.md"/>
-                
-        <toc-element topic="ycubos.md"/>
-                
-        <toc-element topic="yluckyblock.md"/>
-                
-        <toc-element topic="ydominararena.md"/>
-                
-        <toc-element topic="ycambio.md"/>
-                
-        <toc-element topic="ypassrewards.md"/>
-                
-        <toc-element topic="yfragmentosvirtuais.md"/>
-                
-        <toc-element topic="ymcmmoutil.md"/>
-                
-        <toc-element topic="yespadasfarm.md"/>
-                
-        <toc-element topic="yplantacoes.md"/>
-                
-        <toc-element topic="ymercador.md"/>
-                
-        <toc-element topic="yautoclick.md"/>
-                
-        <toc-element topic="ymochilas.md"/>
-                
-        <toc-element topic="ychain.md"/>
-                
-        <toc-element topic="yheadcommands.md"/>
-                
-        <toc-element topic="yboosters.md"/>
-                
-        <toc-element topic="yvender.md"/>
-                
-        <toc-element topic="ykillsystem.md"/>
-                
-        <toc-element topic="ycrates.md"/>
-                
-        <toc-element topic="yhunter.md"/>
-                
-        <toc-element topic="ydatacomemorativa.md"/>
-                
-        <toc-element topic="ytempoonline.md"/>
-                
-        <toc-element topic="yeventos.md"/>
-                
-        <toc-element topic="ykillrank.md"/>
-                
-        <toc-element topic="yrecomendar.md"/>
-                
-        <toc-element topic="yfragmentos.md"/>
-                
-        <toc-element topic="yaltarmistico.md"/>
-                
-        <toc-element topic="yguerra.md"/>
-                
-        <toc-element topic="ymissoes.md"/>
-                
-        <toc-element topic="yrecompensas.md"/>
-                
-        <toc-element topic="yitemcomandos.md"/>
-                
-        <toc-element topic="ysorteio.md"/>
-                
-        <toc-element topic="ystatsview.md"/>
-                
-        <toc-element topic="yrecompensasdiarias.md"/>
-                
-        <toc-element topic="ytags.md"/>
-                
-        <toc-element topic="ylojas.md"/>
-            
-    </toc-element>
-        
-    <toc-element topic="addons.md">
-                
-        <toc-element topic="ycratesvirtuaismochilasaddon.md"/>
-                
-        <toc-element topic="yclanscolorsaddon.md"/>
-                
-        <toc-element topic="yminasantinukeraddon.md"/>
-                
-        <toc-element topic="yminaspacketsantinukeraddon.md"/>
-                
-        <toc-element topic="ychestshopdinamicoaddon.md"/>
-                
-        <toc-element topic="yeconomiasmediaaddon.md"/>
-                
-        <toc-element topic="yminaspacketsenchantsaddon.md"/>
-                
-        <toc-element topic="ycampoenchantsaddon.md"/>
-                
-        <toc-element topic="yplantacoesenchantsaddon.md"/>
-                
-        <toc-element topic="ycampoareasaddon.md"/>
-                
-        <toc-element topic="yeventostntgamesaddon.md"/>
-                
-        <toc-element topic="yeventosdeluxeaddon.md"/>
-                
-        <toc-element topic="yeventoscustomaddon.md"/>
-                
-        <toc-element topic="ypescaclassesaddon.md"/>
-                
-        <toc-element topic="yplantacoesskinsaddon.md"/>
-                
-        <toc-element topic="yminasskinsaddon.md"/>
-                
-        <toc-element topic="yminasdesencantadoraddon.md"/>
-                
-        <toc-element topic="yspawnersmpetaddon.md"/>
-                
-        <toc-element topic="yminasenchantsaddon.md"/>
-                
-        <toc-element topic="yminasbombasaddon.md"/>
-                
-        <toc-element topic="ylobbympetaddon.md"/>
-                
-        <toc-element topic="ystackbossesmpetaddon.md"/>
-                
-        <toc-element topic="ytopspapiaddon.md"/>
-            
-    </toc-element>
     
+    <toc-element topic="documentation.md"/>
+            
+    
+    <toc-element topic="yplugins.md"/>
+            
+    
+    <toc-element topic="discord.md">
+                        
+        
+        <toc-element topic="link-account.md"/>
+                        
+        
+        <toc-element topic="medals.md"/>
+                        
+        
+        <toc-element topic="notifications.md"/>
+                        
+        
+        <toc-element topic="promotion.md"/>
+                        
+        
+        <toc-element topic="suggestions.md"/>
+                        
+        
+        <toc-element topic="tickets.md"/>
+                    
+    
+    </toc-element>
+            
+    
+    <toc-element topic="rankup.md">
+                        
+        
+        <toc-element topic="ytorredecacto.md"/>
+                        
+        
+        <toc-element topic="yfloresta.md"/>
+                        
+        
+        <toc-element topic="yminaspackets.md"/>
+                        
+        
+        <toc-element topic="ymaquinasvirtuais.md"/>
+                        
+        
+        <toc-element topic="yminasafk.md"/>
+                        
+        
+        <toc-element topic="yclearplot.md"/>
+                        
+        
+        <toc-element topic="ycampo.md"/>
+                        
+        
+        <toc-element topic="ystackbosses.md"/>
+                        
+        
+        <toc-element topic="ymito.md"/>
+                        
+        
+        <toc-element topic="ybossarena.md"/>
+                        
+        
+        <toc-element topic="ycratesvirtuais.md"/>
+                        
+        
+        <toc-element topic="ypesca.md"/>
+                        
+        
+        <toc-element topic="ymaquinas.md"/>
+                        
+        
+        <toc-element topic="yminas.md"/>
+                        
+        
+        <toc-element topic="yspawners.md"/>
+                        
+        
+        <toc-element topic="yclansutils.md"/>
+                        
+        
+        <toc-element topic="yautovender.md"/>
+                        
+        
+        <toc-element topic="ycheques.md"/>
+                        
+        
+        <toc-element topic="ytesouros.md"/>
+                        
+        
+        <toc-element topic="ybosses.md"/>
+                        
+        
+        <toc-element topic="yspawnersshop.md"/>
+                        
+        
+        <toc-element topic="ypescasimples.md"/>
+                        
+        
+        <toc-element topic="yrankup.md"/>
+                        
+        
+        <toc-element topic="ylootingstack.md"/>
+                        
+        
+        <toc-element topic="yalmas.md"/>
+                        
+        
+        <toc-element topic="yspawnersvirtuais.md"/>
+                        
+        
+        <toc-element topic="ybossesvirtuais.md"/>
+                        
+        
+        <toc-element topic="ybanco.md"/>
+                        
+        
+        <toc-element topic="yarmazem.md"/>
+                        
+        
+        <toc-element topic="yclans.md"/>
+                    
+    
+    </toc-element>
+            
+    
+    <toc-element topic="factions.md">
+                        
+        
+        <toc-element topic="ymysteryboxes.md"/>
+                        
+        
+        <toc-element topic="yfbau.md"/>
+                        
+        
+        <toc-element topic="yminedrops.md"/>
+                        
+        
+        <toc-element topic="yreparacao.md"/>
+                        
+        
+        <toc-element topic="yenchants.md"/>
+                    
+    
+    </toc-element>
+            
+    
+    <toc-element topic="management.md">
+                        
+        
+        <toc-element topic="yleilao.md"/>
+                        
+        
+        <toc-element topic="yplayershop.md"/>
+                        
+        
+        <toc-element topic="yjail.md"/>
+                        
+        
+        <toc-element topic="ypunish.md"/>
+                        
+        
+        <toc-element topic="ypayments.md"/>
+                        
+        
+        <toc-element topic="yvips.md"/>
+                        
+        
+        <toc-element topic="yeconomias.md"/>
+                        
+        
+        <toc-element topic="ytops.md"/>
+                        
+        
+        <toc-element topic="ychestshop.md"/>
+                        
+        
+        <toc-element topic="ylobby.md"/>
+                        
+        
+        <toc-element topic="ydiscordhook.md"/>
+                        
+        
+        <toc-element topic="ykits.md"/>
+                        
+        
+        <toc-element topic="ycorreio.md"/>
+                        
+        
+        <toc-element topic="yreinicio.md"/>
+                        
+        
+        <toc-element topic="yessentials.md"/>
+                        
+        
+        <toc-element topic="yantigrief.md"/>
+                        
+        
+        <toc-element topic="ybaus.md"/>
+                        
+        
+        <toc-element topic="ylogger.md"/>
+                        
+        
+        <toc-element topic="yscreenshare.md"/>
+                        
+        
+        <toc-element topic="ybolsa.md"/>
+                        
+        
+        <toc-element topic="ypoints.md"/>
+                        
+        
+        <toc-element topic="yeconomy.md"/>
+                        
+        
+        <toc-element topic="yreports.md"/>
+                        
+        
+        <toc-element topic="ytaxarban.md"/>
+                        
+        
+        <toc-element topic="ylixeiro.md"/>
+                        
+        
+        <toc-element topic="ycombatlog.md"/>
+                        
+        
+        <toc-element topic="yshop.md"/>
+                        
+        
+        <toc-element topic="ypreferencias.md"/>
+                        
+        
+        <toc-element topic="ytutorial.md"/>
+                        
+        
+        <toc-element topic="ytickets.md"/>
+                        
+        
+        <toc-element topic="ymobsetspawn.md"/>
+                        
+        
+        <toc-element topic="ystafflogin.md"/>
+                    
+        
+        <toc-element topic="ymarket.md"/>
+            
+        <toc-element topic="ytrades.md"/>
+    </toc-element>
+            
+    
+    <toc-element topic="utility.md">
+                        
+        
+        <toc-element topic="yleagues.md"/>
+                        
+        
+        <toc-element topic="ytorneios.md"/>
+                        
+        
+        <toc-element topic="ypets.md"/>
+                        
+        
+        <toc-element topic="yroleta.md"/>
+                        
+        
+        <toc-element topic="ymanopla.md"/>
+                        
+        
+        <toc-element topic="yjogodobicho.md"/>
+                        
+        
+        <toc-element topic="ymascots.md"/>
+                        
+        
+        <toc-element topic="ycubos.md"/>
+                        
+        
+        <toc-element topic="yluckyblock.md"/>
+                        
+        
+        <toc-element topic="ydominararena.md"/>
+                        
+        
+        <toc-element topic="ycambio.md"/>
+                        
+        
+        <toc-element topic="ypassrewards.md"/>
+                        
+        
+        <toc-element topic="yfragmentosvirtuais.md"/>
+                        
+        
+        <toc-element topic="ymcmmoutil.md"/>
+                        
+        
+        <toc-element topic="yespadasfarm.md"/>
+                        
+        
+        <toc-element topic="yplantacoes.md"/>
+                        
+        
+        <toc-element topic="ymercador.md"/>
+                        
+        
+        <toc-element topic="yautoclick.md"/>
+                        
+        
+        <toc-element topic="ymochilas.md"/>
+                        
+        
+        <toc-element topic="ychain.md"/>
+                        
+        
+        <toc-element topic="yheadcommands.md"/>
+                        
+        
+        <toc-element topic="yboosters.md"/>
+                        
+        
+        <toc-element topic="yvender.md"/>
+                        
+        
+        <toc-element topic="ykillsystem.md"/>
+                        
+        
+        <toc-element topic="ycrates.md"/>
+                        
+        
+        <toc-element topic="yhunter.md"/>
+                        
+        
+        <toc-element topic="ydatacomemorativa.md"/>
+                        
+        
+        <toc-element topic="ytempoonline.md"/>
+                        
+        
+        <toc-element topic="yeventos.md"/>
+                        
+        
+        <toc-element topic="ykillrank.md"/>
+                        
+        
+        <toc-element topic="yrecomendar.md"/>
+                        
+        
+        <toc-element topic="yfragmentos.md"/>
+                        
+        
+        <toc-element topic="yaltarmistico.md"/>
+                        
+        
+        <toc-element topic="yguerra.md"/>
+                        
+        
+        <toc-element topic="ymissoes.md"/>
+                        
+        
+        <toc-element topic="yrecompensas.md"/>
+                        
+        
+        <toc-element topic="yitemcomandos.md"/>
+                        
+        
+        <toc-element topic="ysorteio.md"/>
+                        
+        
+        <toc-element topic="ystatsview.md"/>
+                        
+        
+        <toc-element topic="yrecompensasdiarias.md"/>
+                        
+        
+        <toc-element topic="ytags.md"/>
+                        
+        
+        <toc-element topic="ylojas.md"/>
+                    
+    
+    </toc-element>
+            
+    
+    <toc-element topic="addons.md">
+                        
+        
+        <toc-element topic="ycratesvirtuaismochilasaddon.md"/>
+                        
+        
+        <toc-element topic="yclanscolorsaddon.md"/>
+                        
+        
+        <toc-element topic="yminasantinukeraddon.md"/>
+                        
+        
+        <toc-element topic="yminaspacketsantinukeraddon.md"/>
+                        
+        
+        <toc-element topic="ychestshopdinamicoaddon.md"/>
+                        
+        
+        <toc-element topic="yeconomiasmediaaddon.md"/>
+                        
+        
+        <toc-element topic="yminaspacketsenchantsaddon.md"/>
+                        
+        
+        <toc-element topic="ycampoenchantsaddon.md"/>
+                        
+        
+        <toc-element topic="yplantacoesenchantsaddon.md"/>
+                        
+        
+        <toc-element topic="ycampoareasaddon.md"/>
+                        
+        
+        <toc-element topic="yeventostntgamesaddon.md"/>
+                        
+        
+        <toc-element topic="yeventosdeluxeaddon.md"/>
+                        
+        
+        <toc-element topic="yeventoscustomaddon.md"/>
+                        
+        
+        <toc-element topic="ypescaclassesaddon.md"/>
+                        
+        
+        <toc-element topic="yplantacoesskinsaddon.md"/>
+                        
+        
+        <toc-element topic="yminasskinsaddon.md"/>
+                        
+        
+        <toc-element topic="yminasdesencantadoraddon.md"/>
+                        
+        
+        <toc-element topic="yspawnersmpetaddon.md"/>
+                        
+        
+        <toc-element topic="yminasenchantsaddon.md"/>
+                        
+        
+        <toc-element topic="yminasbombasaddon.md"/>
+                        
+        
+        <toc-element topic="ylobbympetaddon.md"/>
+                        
+        
+        <toc-element topic="ystackbossesmpetaddon.md"/>
+                        
+        
+        <toc-element topic="ytopspapiaddon.md"/>
+                    
+    
+    </toc-element>
+        
+
 </instance-profile>
