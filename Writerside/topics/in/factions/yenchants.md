@@ -55,7 +55,7 @@ yenchants.usar.xp - Permissão para o /xp
 yenchants.setar - Permissão para o /xp setar
 yenchants.adicionar - Permissão para o /xp adicionar
 yenchants.remover - Permissão para o /xp remover
-yenchants.olhar - Permissão para o /xp</code-block> teste
+yenchants.olhar - Permissão para o /xp</code-block>
 </chapter>
 
 
