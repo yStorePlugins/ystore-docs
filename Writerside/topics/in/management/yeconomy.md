@@ -83,7 +83,7 @@ Aqui estão as placeholders disponíveis para utilização com este plugin. Cons
 Esta seção apresenta as placeholders disponíveis para utilização no chat. Consulte-as para compreender como aplicá-las de maneira eficaz.
 
 <code-block lang="plain text">
-{magnata} - Tag do jogador mais rico (magnata) teste
+{magnata} - Tag do jogador mais rico (magnata)
 </code-block>
 
 
