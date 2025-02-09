@@ -166,6 +166,7 @@
         <toc-element topic="ystafflogin.md"/>
             
         <toc-element topic="ymarket.md"/>
+        <toc-element topic="ytrades.md"/>
     </toc-element>
         
     <toc-element topic="utility.md">
