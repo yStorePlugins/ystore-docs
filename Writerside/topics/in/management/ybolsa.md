@@ -19,6 +19,23 @@ Deixe seu servidor igual uma poupança, variando os valores dos itens.
 <secondary-label ref="1.19"/>
 <secondary-label ref="1.20"/>
 
+<chapter title="Comandos" id="commands" collapsible="true">
+<code-block lang="plain text">/bolsa&nbsp;- Envia a mensagem de valor atual
+/bolsa setvalor&nbsp;- Define um novo valor para a bolsa</code-block>
+</chapter>
+
+<chapter title="Permissões" id="permissions" collapsible="true">
+<code-block lang="plain text">ybolsa.admin - Permissão para o /bolsa setvalor</code-block>
+</chapter>
+
+## Placeholders
+<primary-label ref="placeholders"/>
+
+Aqui estão as placeholders disponíveis para utilização com este plugin. Consulte-as para entender como utilizá-las corretamente.
+
+<code-block lang="plain text" ignore-vars="true">
+%ybolsa_bolsa% - Retorna o valor atual da bolsa.
+</code-block>
 
 
 
