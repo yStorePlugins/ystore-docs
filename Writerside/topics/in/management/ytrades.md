@@ -1,8 +1,8 @@
-# yBolsa
+# yTrades
 <secondary-label ref="management"/>
 
 ### Descrição
-Deixe seu servidor igual uma poupança, variando os valores dos itens.
+Realize trocas de itens e economias com seus parceiros
 
 ### Versões
 <secondary-label ref="1.8"/>
@@ -18,24 +18,24 @@ Deixe seu servidor igual uma poupança, variando os valores dos itens.
 <secondary-label ref="1.18"/>
 <secondary-label ref="1.19"/>
 <secondary-label ref="1.20"/>
+<secondary-label ref="1.21"/>
+
+### Demonstração
+<video src="//www.youtube.com/watch?v=HYx5MSyteoM"/>
+
 
 <chapter title="Comandos" id="commands" collapsible="true">
-<code-block lang="plain text">/bolsa&nbsp;- Envia a mensagem de valor atual
-/bolsa setvalor&nbsp;- Define um novo valor para a bolsa</code-block>
+<code-block lang="plain text">/trocar - Envia a mensagem de ajuda
+/trocar [player] - Envia a solicitação de troca
+/trocar aceitar [player] - Aceita a solicitação de troca
+/trocar negar [player] - Nega a solicitação de troca
+/trocar reload - Recarrega as configurações</code-block>
 </chapter>
 
 <chapter title="Permissões" id="permissions" collapsible="true">
-<code-block lang="plain text">ybolsa.admin - Permissão para o /bolsa setvalor</code-block>
+<code-block lang="plain text">ytrades.use - Permissão para o /trocar [player], /trocar aceitar [player] e /trocar negar [player]
+ytrades.admin.reload - Permissão para o /trocar reload</code-block>
 </chapter>
-
-## Placeholders
-<primary-label ref="placeholders"/>
-
-Aqui estão as placeholders disponíveis para utilização com este plugin. Consulte-as para entender como utilizá-las corretamente.
-
-<code-block lang="plain text" ignore-vars="true">
-%ybolsa_bolsa% - Retorna o valor atual da bolsa.
-</code-block>
 
 
 
@@ -46,6 +46,6 @@ Antes de configurar o plugin, revise os pontos listados aqui para evitar problem
 
 <seealso style="cards">
     <category ref="wrs">
-        <a href="yplugins.md"></a>        <a href="https://ystoreplugins.com.br/plugins/detalhes/61-yBolsa">Site do plugin yBolsa</a>
+        <a href="yplugins.md"></a>        <a href="https://ystoreplugins.com.br/plugins/detalhes/155-yTrades">Site do plugin yTrades</a>
     </category>
 </seealso>

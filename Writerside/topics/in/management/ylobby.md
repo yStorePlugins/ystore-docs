@@ -38,11 +38,12 @@ O melhor gerenciador de lobby do mercado
 /ylobby reload - Recarrega as configurações
 /sb toggle - Ativa
 /desativa a scoreboard para o jogador
-/sb reload - Recarrega a configuração da scoreboard 
+/sb reload - Recarrega a configuração da scoreboard&nbsp;
 /tab reload - Recarrega a configuração do tablist
 /fly - Ativa
 /desativa o fly
 /preferences - Abre o menu de preferências
+/colors - Abre o menu de seleção de cores
 /gamemode - Define o modo de jogo
 /clearchat - Limpa o chat
 /clear - Limpa o inventário
@@ -75,13 +76,14 @@ O melhor gerenciador de lobby do mercado
 /battle x1setpos1 - Seta a posição 1 da arena x1
 /battle x1setpos2 - Seta a posição 2 da arena x1
 /battle x1delpos1 - Deleta a posição 1 da arena x1
-/battle x1delpos2 - Deleta a posição 2 da arena x1</code-block>
+/battle x1delpos2 - Deleta&nbsp;a posição 2 da arena x1</code-block>
 </chapter>
 
 <chapter title="Permissões" id="permissions" collapsible="true">
 <code-block lang="plain text">ylobby.battle - Permissão para o /battle
 ylobby.fly - Permissão para o /fly
 ylobby.preferences - Permissão para o /preferences
+ylobby.colors - Permissão para o /colors
 ylobby.queue - Permissão para o /fila
 ylobby.reply - Permissão para o /reply
 ylobby.servers - Permissão para o /servers
