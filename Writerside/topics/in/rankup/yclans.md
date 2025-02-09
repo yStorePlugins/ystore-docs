@@ -83,12 +83,6 @@ Uma nova forma de gerenciar clans no servidor, conta com baú do clan, banco e m
 /clan givespecialitem - Dá itens especiais para um jogador</code-block>
 </chapter>
 
-
-
-
-
-
-
 <chapter title="Permissões" id="permissions" collapsible="true">
 <code-block lang="plain text">yclans.use - Permissão para o /clan
 yclans.clan.allychat - Permissão para o /a
@@ -135,10 +129,6 @@ yclans.clan.deletar - Permissão para o /clan deletar
 yclans.clan.reload - Permissão para o /clan reload
 yclans.clan.givespecialitem - Permissão para o /clan givespecialitem</code-block>
 </chapter>
-
-
-
-
 
 ## Placeholders
 <primary-label ref="placeholders"/>
