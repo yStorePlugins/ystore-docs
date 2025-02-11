@@ -7,7 +7,7 @@ Para aproveitar todas as funcionalidades do Discord, como receber atualizações
 <procedure>
 <step>Faça login na sua conta e vá até a seção Minha Conta, após isso procure pelo campo Discord e insira o seu ID do Discord.
 
-<tip>Caso não saiba o seu ID, você pode ir no canal de comandos no discord e digitar +meuid. Esse é o seu ID do Discord.</tip>
+<tip>Caso não saiba o seu ID, você pode ir no canal de comandos no Discord e digitar +meuid. Esse é o seu ID do Discord.</tip>
 <img src="user config.png" style="block"/>
 </step>
 
