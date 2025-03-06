@@ -211,8 +211,6 @@ chat:
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
