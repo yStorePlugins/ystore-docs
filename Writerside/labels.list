@@ -27,7 +27,7 @@
         Vá para www.ystoreplugins.com.br
     </primary-label>
 
-    <primary-label id="api" short-name="api" name="API" href="https://www.ystoreplugins.com.br" color="blue">
+    <primary-label id="config" short-name="config" name="Configuração" href="https://www.ystoreplugins.com.br" color="blue">
         Vá para www.ystoreplugins.com.br
     </primary-label>
     

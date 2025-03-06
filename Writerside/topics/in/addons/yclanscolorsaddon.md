@@ -24,6 +24,46 @@ Dê uma cor diferente aos seus aliados e inimigos
 <video src="https://i.imgur.com/d8t9Ed8.png"/>
 
 
+## Configuração
+<primary-label ref="config"/>
+Confira os arquivos de configuração deste plugin e revise os detalhes para garantir uma implementação correta.
+
+<chapter title="Arquivos de Configuração" collapsible="true">
+<chapter title="Estrutura do diretório" collapsible="false">
+<code-block lang="plain text" ignore-vars="true">
+Estrutura do diretório:
+└── yClansColorsAddon/
+    └── config.yml
+</code-block>
+</chapter>
+
+<chapter title="config.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#         ____ _                  ____      _                   _       _     _
+#  _   _ / ___| | __ _ _ __  ___ / ___|___ | | ___  _ __ ___   / \   __| | __| | ___  _ __
+# | | | | |   | |/ _` | '_ \/ __| |   / _ \| |/ _ \| '__/ __| / _ \ / _` |/ _` |/ _ \| '_ \
+# | |_| | |___| | (_| | | | \__ \ |__| (_) | | (_) | |  \__ \/ ___ \ (_| | (_| | (_) | | | |
+#  \__, |\____|_|\__,_|_| |_|___/\____\___/|_|\___/|_|  |___/_/   \_\__,_|\__,_|\___/|_| |_|
+#  |___/
+#
+
+# Formatação da placeholder (RELATIVE)
+# Para testes, use o comando "/papi parserel <player> <player> %rel_yclanscolorsaddon_color%TESTE"
+#
+# PLACEHOLDER: %rel_yclanscolorsaddon_color%
+#
+placeholders:
+  no-clan: '&7'
+  same-clan: '&a'
+  clan-ally: '&2[A] &a'
+  clan-neutral: '&c'
+  clan-rival: '&4[R] &c'
+]]>
+</code-block>
+</chapter>
+
+</chapter>
 
 
 ## Erros comuns

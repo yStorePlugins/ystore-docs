@@ -24,6 +24,147 @@ Proteja sua mineração dos jogadores mal intencionados
 <video src="https://www.youtube.com/watch?v=qZ6mK73EffA"/>
 
 
+## Configuração
+<primary-label ref="config"/>
+Confira os arquivos de configuração deste plugin e revise os detalhes para garantir uma implementação correta.
+
+<chapter title="Arquivos de Configuração" collapsible="true">
+<chapter title="Estrutura do diretório" collapsible="false">
+<code-block lang="plain text" ignore-vars="true">
+Estrutura do diretório:
+└── yMinasAntiNukerAddon/
+    ├── config.yml
+    └── settings.yml
+</code-block>
+</chapter>
+
+<chapter title="config.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#         __  __ _                    _          _   _ _   _       _
+#  _   _|  \/  (_)_ __   __ _ ___   / \   _ __ | |_(_) \ | |_   _| | _____ _ __
+# | | | | |\/| | | '_ \ / _` / __| / _ \ | '_ \| __| |  \| | | | | |/ / _ \ '__|
+# | |_| | |  | | | | | | (_| \__ \/ ___ \| | | | |_| | |\  | |_| |   <  __/ |
+#  \__, |_|  |_|_|_| |_|\__,_|___/_/   \_\_| |_|\__|_|_| \_|\__,_|_|\_\___|_|
+#  |___/
+#
+# Modo de depuração para correção de problemas no plugin.
+debug-mode: false
+
+#      ___      _        _
+#     /   \__ _| |_ __ _| |__   __ _ ___  ___
+#    / /\ / _` | __/ _` | '_ \ / _` / __|/ _ \
+#   / /_// (_| | || (_| | |_) | (_| \__ \  __/
+#  /___,' \__,_|\__\__,_|_.__/ \__,_|___/\___|
+#
+# Configurações do banco de dados.
+
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL, HIKARI (recomendado)]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados MYSQL.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Limite aceitável de blocos quebrados por checagem
+limit: 25
+
+# Limite de warns até executar o kick
+warn-limit: 5
+
+# Sistemas gerais do plugin
+general:
+  # Sistema de notificar o ganho de pontos
+  discordhook:
+    enabled: true
+    channel: ''
+    # Placeholders disponíveis:
+    # {player}
+    # {limit}
+    embed: ''
+
+actions:
+  # Expulsar o jogador do servidor quando ultrapassar o limite
+  kick: false
+  # Avisar os staffs que tem um jogador com possível nuker (permissão: "yminasantinukeraddon.staff")
+  warn: true
+
+# Mensagens gerais
+messages:
+  kick: |
+
+    &c&lANTI NUKER
+
+    <s><s><s><s><s><s><s><s>&cVocê&f foi expulso do servidor por possível uso de nuker
+
+    &eVocê ainda pode entrar no servidor, porém todos os staffs foram avisados.
+
+  warn-logout: '&c&l[ANTI NUKER] &cO jogador &f{player} &cfoi expulso por estar quebrando &f{limit} blocos por segundo &cna área de mineração.'
+  warn: '&c&l[ANTI NUKER] &cO jogador &f{player} &cestá quebrando &f{limit} blocos por segundo &cna área de mineração.'
+]]>
+</code-block>
+</chapter>
+
+<chapter title="settings.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#          ____
+#  _   _ / ___|__ _ _ __ ___  _ __   ___
+# | | | | |   / _` | '_ ` _ \| '_ \ / _ \
+# | |_| | |__| (_| | | | | | | |_) | (_) |
+#  \__, |\____\__,_|_| |_| |_| .__/ \___/
+#  |___/                     |_|
+#
+# Discord: discord.ystoreplugins.com.br
+# Site: ystoreplugins.com.br
+#
+
+# Modo de depuração para correção de problemas no plugin.
+debug-mode: false
+
+#      ___      _        _
+#     /   \__ _| |_ __ _| |__   __ _ ___  ___
+#    / /\ / _` | __/ _` | '_ \ / _` / __|/ _ \
+#   / /_// (_| | || (_| | |_) | (_| \__ \  __/
+#  /___,' \__,_|\__\__,_|_.__/ \__,_|___/\___|
+#
+# Configurações do banco de dados.
+
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL, HIKARI (recomendado)]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados MYSQL.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Servidores que os anúncios não serão enviados
+server-blacklist:
+  - 'lobby'
+]]>
+</code-block>
+</chapter>
+
+</chapter>
 
 
 ## Erros comuns

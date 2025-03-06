@@ -37,6 +37,180 @@ ytorredecacto.give - Permissão para o /torre give
 ytorredecacto.admin.reload - Permissão para o /pets reload</code-block>
 </chapter>
 
+## Configuração
+<primary-label ref="config"/>
+Confira os arquivos de configuração deste plugin e revise os detalhes para garantir uma implementação correta.
+
+<chapter title="Arquivos de Configuração" collapsible="true">
+<chapter title="Estrutura do diretório" collapsible="false">
+<code-block lang="plain text" ignore-vars="true">
+Estrutura do diretório:
+└── yTorreDeCacto/
+    ├── structures/
+    │    └── cactus_tower.yml
+    ├── commands.yml
+    ├── config.yml
+    └── messages.yml
+</code-block>
+</chapter>
+
+<chapter title="structures" collapsible="true">
+<chapter title="cactus_tower.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+# Nome da ESTRUTURA
+display-name: '&aTorre de Cacto'
+
+# Bloco que irá aparecer no preview caso esteja bloqueado de por
+preview-block: 'RED_STAINED_GLASS'
+
+# Quantia de vezes que a estrutura irá se repetir (para cima)
+repeat-amount: 5
+
+# Item que o jogador irá receber
+item:
+  material: CACTUS
+  name: '&aTorre de Cactos'
+  lore:
+    - '&7Este item irá gerar uma'
+    - '&7incrível torre de cactos.'
+    - ''
+    - '&f Quantia da torre: &a5 níveis'
+    - ''
+    - '&aClique para ativar.'
+
+# Siglas de cada bloco para identificação no pattern
+blocks:
+  - 'C,CACTUS'
+  - 'X,AIR'
+  - 'D,DIRT'
+  - 'S,SAND'
+
+# Modelagem da estrutura
+patterns:
+  bottom:
+    y: 1
+    pattern:
+      - 'XDX'
+      - 'DXD'
+      - 'XDX'
+  sands:
+    y: 2
+    pattern:
+      - 'XSX'
+      - 'SXS'
+      - 'XSX'
+  cactus:
+    y: 3
+    pattern:
+      - 'XCX'
+      - 'CXC'
+      - 'XCX'
+  top:
+    y: 4
+    pattern:
+      - 'XXX'
+      - 'XDX'
+      - 'XXX'
+]]>
+</code-block>
+</chapter>
+
+</chapter>
+
+<chapter title="commands.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#     ___                                          _
+#    / __\___  _ __ ___  _ __ ___   __ _ _ __   __| |___
+#   / /  / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+#  / /__| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+#  \____/\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+#
+# Lista de comandos do plugin.
+
+# Utilize "comando|comando" para criar aliases.
+# Por exemplo: "gm|gamemode"
+# Você pode criar quantas aliases quiser.
+commands:
+  tower: 'torre|torres|tower|towers'
+]]>
+</code-block>
+</chapter>
+
+<chapter title="config.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#       _____                   ____        ____           _
+#  _   |_   _|__  _ __ _ __ ___|  _ \  ___ / ___|__ _  ___| |_ ___
+# | | | || |/ _ \| '__| '__/ _ \ | | |/ _ \ |   / _` |/ __| __/ _ \
+# | |_| || | (_) | |  | | |  __/ |_| |  __/ |__| (_| | (__| || (_) |
+#  \__, ||_|\___/|_|  |_|  \___|____/ \___|\____\__,_|\___|\__\___/
+#  |___/
+#
+
+#   __      _   _   _
+#  / _\ ___| |_| |_(_)_ __   __ _ ___
+#  \ \ / _ \ __| __| | '_ \ / _` / __|
+#  _\ \  __/ |_| |_| | | | | (_| \__ \
+#  \__/\___|\__|\__|_|_| |_|\__, |___/
+#
+# Sistemas principais.
+
+general:
+  # Ativar o preview no shift
+  shift-preview-enabled: true
+  # Ativar o preview sem shift
+  no-shift-preview-enabled: true
+  # Ativar o preview no shift
+  shift-preview: true
+  # Ativar o preview sem shift
+  no-shift-preview: false
+  # Tempo que levará para atualizar o preview
+  # em ticks (20 ticks = 1 segundo)
+  refresh-time: 5
+  # Distância do preview
+  # em blocos
+  preview-distance: 5
+]]>
+</code-block>
+</chapter>
+
+<chapter title="messages.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+#
+#    /\/\   ___  ___ ___  __ _  __ _  ___  ___
+#   /    \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#  / /\/\ \  __/\__ \__ \ (_| | (_| |  __/\__ \
+#  \/    \/\___||___/___/\__,_|\__, |\___||___/
+#                              |___/
+#
+# Plugin messages
+
+chat:
+  syntax: '&cUse: /{command} {syntax}'
+  target: '&cJogador {player} não encontrado.'
+  number: '&cO argumento não é um número.'
+  permission: '&cVocê não tem permissão para fazer isto.'
+  console: '&cApenas jogadores in-game podem realizar esta ação.'
+  cancelled: '&cVocê cancelou a ação.'
+  reload: '&aConfigurações recarregadas com sucesso.'
+  help: |
+
+    &a/tower give &8- &7Dar uma estrutura para um/todos os jogadores.
+    &a/tower reload &8- &7Recarrega as configurações.
+
+  structure-give: '&aVocê deu &7{amount}x {structure}&a para o jogador &7{player}&a.'
+  structure-received: '&aVocê recebeu &7{amount}x {structure}&a.'
+  structure-list: |
+    &cEstrutura não encontrada.
+    &cEstruturas disponíveis: &f{list}
+]]>
+</code-block>
+</chapter>
+
+</chapter>
 
 
 ## Erros comuns
