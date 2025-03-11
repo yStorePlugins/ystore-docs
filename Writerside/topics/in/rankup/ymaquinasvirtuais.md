@@ -449,6 +449,9 @@ general:
   buy-chat: true
   # Gastar limite ao comprar
   spend-limit: false
+  # Delay da coleta
+  # em segundos
+  collect-delay: 10
 
 # Limite de compra de máquinas na loja.
 limit-shop:
@@ -1148,13 +1151,12 @@ chat:
   slot-give: '&aVocê deu &e{amount} &ade slots para o jogador &e{player}&a.'
   machine-activated: '&cMáquina ativada com sucesso.'
   machine-collected: '&a{amount}x {machine} &aremovida(s).'
+  delay-collect: '&cAguarde &e{time} &cpara coletar novamente.'
 ]]>
 </code-block>
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
