@@ -74,6 +74,7 @@ Estrutura do diretório:
     │    ├── recompensas.yml
     │    └── top.yml
     ├── config.yml
+    ├── data.yml
     ├── ranks.yml
     └── recompensas.yml
 </code-block>
@@ -247,10 +248,30 @@ Placeholders:
    Nome tem: '{nome}'
    Nome nao tem: '&7Sem rank'
 
+# Configuração da barra de progresso
+progress-bar:
+   amount: 10
+   symbol: ':'
+   color-yes: '&a'
+   color-no: '&7'
+
+# Sistema de npc
+npc:
+   skin: 'Pitombaa'
+   hologram:
+      offset: 3.4
+      hologram:
+         - '&6&lRanking de Kills'
+         - '&7Evolua seu rank com a matança!'
+         - '[item]DIAMOND_SWORD'
+
 Mensagens:
    Permissao: '&cVocê não tem permissão para isto.'
    Coletou: '&aVocê coletou a recompensa.'
    Nao encontrado: '&c&lERRO! &cJogador não encontrado.'
+   Npc-set: '&aNPC setado com sucesso.'
+   Npc-deleted: '&aNPC removido com sucesso.'
+   Npc-not-set: '&cNPC não está definido.'
    Olhar:
    - ''
    - '&7Informações do jogador &f{player}&7:'
@@ -313,6 +334,14 @@ Lores:
       Sobrepor: true
       Lore:
       - '&cVocê já coletou essa recompensa.'
+]]>
+</code-block>
+</chapter>
+
+<chapter title="data.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+version: '1.0.0'
 ]]>
 </code-block>
 </chapter>
@@ -405,8 +434,6 @@ Recompensas:
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
