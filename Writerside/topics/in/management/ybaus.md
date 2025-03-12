@@ -76,6 +76,7 @@ Estrutura do diretório:
     │    └── principal.yml
     ├── config.yml
     ├── custos.yml
+    ├── data.yml
     └── descontos.yml
 </code-block>
 </chapter>
@@ -329,6 +330,8 @@ Opcoes:
   Criativo: false
   # Habilitar o uso do /bau <numero>
   Command open: false
+  # Abrir o menu principal ao fechar um baú
+  Open-close: true
   Default-Item:
     Material: 'CHEST'
     Data: 0
@@ -486,6 +489,15 @@ Expandir:
 </code-block>
 </chapter>
 
+<chapter title="data.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+Npc local: 'none'
+Data: {}
+]]>
+</code-block>
+</chapter>
+
 <chapter title="descontos.yml" collapsible="true">
 <code-block lang="yaml" ignore-vars="true">
 <![CDATA[
@@ -499,8 +511,6 @@ Descontos:
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
