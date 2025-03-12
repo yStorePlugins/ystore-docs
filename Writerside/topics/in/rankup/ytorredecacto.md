@@ -39,7 +39,7 @@ ytorredecacto.admin.reload - Permissão para o /pets reload</code-block>
 
 ## Configuração
 <primary-label ref="config"/>
-Aqui estão as configurações padrões para este plugin.
+Confira os arquivos de configuração deste plugin e revise os detalhes para garantir uma implementação correta.
 
 <chapter title="Arquivos de Configuração" collapsible="true">
 <chapter title="Estrutura do diretório" collapsible="false">
@@ -158,16 +158,20 @@ commands:
 # Sistemas principais.
 
 general:
+  # Ativar o preview no shift
+  shift-preview-enabled: true
+  # Ativar o preview sem shift
+  no-shift-preview-enabled: true
+  # Ativar o preview no shift
+  shift-preview: true
+  # Ativar o preview sem shift
+  no-shift-preview: false
   # Tempo que levará para atualizar o preview
   # em ticks (20 ticks = 1 segundo)
   refresh-time: 5
   # Distância do preview
   # em blocos
   preview-distance: 5
-  # Ativar o preview no shift
-  shift-preview: true
-  # Ativar o preview sem shift
-  no-shift-preview: false
 ]]>
 </code-block>
 </chapter>
