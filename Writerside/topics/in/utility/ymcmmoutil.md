@@ -157,6 +157,11 @@ shop-menu: true
 # Acumular os bônus que tiver permissão
 accumulate-bonus: false
 
+# Sistemas gerais
+general:
+  formatter-bonus-has: '&a+{bonus}% por ser {display}&a.'
+  formatter-bonus-no-has: ''
+
 # Actionbar quando ganhar xp
 actionbar:
   enabled: true
@@ -205,6 +210,8 @@ bonus:
     order: 1
     # Permissão para ser reconhecido
     permission: 'ymcmmoutil.bonus.membro'
+    # Nome que irá aparecer nas mensagens
+    display: '&7[Membro]'
     # Quantia do bônus em %
     bonus: 10.0
 
@@ -589,8 +596,6 @@ chat:
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
