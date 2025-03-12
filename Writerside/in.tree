@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<instance-profile id="in" is-library="false" name="Documentação yStore" start-page="documentation.md" status="release">
+<instance-profile id="in" is-library="false" name="Documentação yStore" start-page="documentation.md" status="Release">
     <toc-element topic="documentation.md"/>
     <toc-element topic="yplugins.md"/>
     <toc-element topic="discord.md">
@@ -51,8 +51,8 @@
         <toc-element topic="ytops.md"/>
         <toc-element topic="ytrades.md"/>
         <toc-element topic="ytutorial.md"/>
-        <toc-element topic="yvips.md"/>
         <toc-element topic="yplayershop.md"/>
+        <toc-element topic="yvips.md"/>
     </toc-element>
     <toc-element topic="rankup.md">
         <toc-element topic="yalmas.md"/>
@@ -72,10 +72,10 @@
         <toc-element topic="ylootingstack.md"/>
         <toc-element topic="ymaquinas.md"/>
         <toc-element topic="ymaquinasvirtuais.md"/>
-        <toc-element topic="ymito.md"/>
         <toc-element topic="yminas.md"/>
         <toc-element topic="yminasafk.md"/>
         <toc-element topic="yminaspackets.md"/>
+        <toc-element topic="ymito.md"/>
         <toc-element topic="ypesca.md"/>
         <toc-element topic="ypescasimples.md"/>
         <toc-element topic="yrankup.md"/>
@@ -94,18 +94,23 @@
         <toc-element topic="yboosters.md"/>
         <toc-element topic="ycambio.md"/>
         <toc-element topic="ychain.md"/>
+        <toc-element topic="ycrates.md"/>
         <toc-element topic="ycubos.md"/>
         <toc-element topic="ydatacomemorativa.md"/>
         <toc-element topic="ydominararena.md"/>
+        <toc-element topic="yespadasfarm.md"/>
         <toc-element topic="yeventos.md"/>
         <toc-element topic="yfragmentos.md"/>
         <toc-element topic="yfragmentosvirtuais.md"/>
+        <toc-element topic="yguerra.md"/>
+        <toc-element topic="yheadcommands.md"/>
         <toc-element topic="yhunter.md"/>
         <toc-element topic="yitemcomandos.md"/>
         <toc-element topic="yjogodobicho.md"/>
         <toc-element topic="ykillrank.md"/>
         <toc-element topic="ykillsystem.md"/>
         <toc-element topic="yleagues.md"/>
+        <toc-element topic="ylojas.md"/>
         <toc-element topic="yluckyblock.md"/>
         <toc-element topic="ymanopla.md"/>
         <toc-element topic="ymascots.md"/>
@@ -116,6 +121,7 @@
         <toc-element topic="ypassrewards.md"/>
         <toc-element topic="ypets.md"/>
         <toc-element topic="yplantacoes.md"/>
+        <toc-element topic="yrecomendar.md"/>
         <toc-element topic="yrecompensas.md"/>
         <toc-element topic="yrecompensasdiarias.md"/>
         <toc-element topic="yroleta.md"/>
@@ -124,13 +130,7 @@
         <toc-element topic="ytags.md"/>
         <toc-element topic="ytempoonline.md"/>
         <toc-element topic="ytorneios.md"/>
-        <toc-element topic="yespadasfarm.md"/>
-        <toc-element topic="yheadcommands.md"/>
         <toc-element topic="yvender.md"/>
-        <toc-element topic="ycrates.md"/>
-        <toc-element topic="yrecomendar.md"/>
-        <toc-element topic="yguerra.md"/>
-        <toc-element topic="ylojas.md"/>
     </toc-element>
     <toc-element topic="addons.md">
         <toc-element topic="ycampoareasaddon.md"/>
@@ -151,10 +151,10 @@
         <toc-element topic="yminaspacketsenchantsaddon.md"/>
         <toc-element topic="yminasskinsaddon.md"/>
         <toc-element topic="ypescaclassesaddon.md"/>
+        <toc-element topic="yplantacoesenchantsaddon.md"/>
         <toc-element topic="yplantacoesskinsaddon.md"/>
         <toc-element topic="yspawnersmpetaddon.md"/>
         <toc-element topic="ystackbossesmpetaddon.md"/>
         <toc-element topic="ytopspapiaddon.md"/>
-        <toc-element topic="yplantacoesenchantsaddon.md"/>
     </toc-element>
 </instance-profile>
