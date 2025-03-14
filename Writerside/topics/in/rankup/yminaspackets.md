@@ -177,6 +177,7 @@ Estrutura do diretório:
     ├── classes.yml
     ├── commands.yml
     ├── config.yml
+    ├── data.yml
     ├── economies.yml
     ├── menus.yml
     ├── messages.yml
@@ -256,6 +257,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aLayer-Midas'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar uma linha'
+          - '&7de blocos especiais.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aLayer-Midas'
@@ -332,6 +348,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aMidas'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar uma mina'
+          - '&7de blocos especiais.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aMidas'
@@ -406,6 +437,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aMeteoros'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar bolas de fogo'
+          - '&7caindo do céu.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aMeteoros'
@@ -480,6 +526,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aArrows'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar flechas'
+          - '&7caindo do céu.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aArrows'
@@ -555,6 +616,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aBoomerang'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar um espiral'
+          - '&7que quebra blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aBoomerang'
@@ -630,6 +706,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aStorm'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de spawnar raios'
+          - '&7que quebram blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aStorm'
@@ -709,6 +800,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: TRIPWIRE_HOOK
+        name: '&aChaveiro'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7encontre chaves ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: TRIPWIRE_HOOK
         name: '&aChaveiro'
@@ -815,6 +920,19 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission: # quando não puder evoluir
+        material: DIAMOND_PICKAXE
+        name: '&aEficiência'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7minere com mais agilidade.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum: # quando já estiver no máximo
         material: DIAMOND_PICKAXE
         name: '&aEficiência'
@@ -877,6 +995,19 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: GOLD_INGOT
+        name: '&aFortuna'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: GOLD_INGOT
         name: '&aFortuna'
@@ -946,6 +1077,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission: # quando não puder evoluir
+        material: '7faf3efbff6d7ef465ecacbc517f4dad5cc1a2261ea7a609f216aae48784'
+        name: '&aNuclear'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar a mina inteira.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum: # quando já estiver no máximo
         material: '7faf3efbff6d7ef465ecacbc517f4dad5cc1a2261ea7a609f216aae48784'
         name: '&aNuclear'
@@ -1019,6 +1164,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '8da332abde333a15a6c6fcfeca83f0159ea94b68e8f274bafc04892b6dbfc'
+        name: '&aDestruidor'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar a camada inteira.'
+          - '&7de blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '8da332abde333a15a6c6fcfeca83f0159ea94b68e8f274bafc04892b6dbfc'
         name: '&aDestruidor'
@@ -1088,6 +1248,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: NETHER_STAR
+        name: '&aSumonador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de transformar um bloco.'
+          - '&7em LuckyBlock ao quebrá-lo.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: NETHER_STAR
         name: '&aSumonador'
@@ -1152,6 +1327,19 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: FEATHER
+        name: '&aVelocidade'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha o efeito de velocidade na mina.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: FEATHER
         name: '&aVelocidade'
@@ -1214,6 +1402,19 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: 'ae77ae4f3652f671203cf45ff3c7f7e6328e921c374a7a311b3e48444fd892'
+        name: '&aPressa'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha o efeito de pressa na mina.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: 'ae77ae4f3652f671203cf45ff3c7f7e6328e921c374a7a311b3e48444fd892'
         name: '&aPressa'
@@ -1280,6 +1481,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: 'd8188345dc6a1bf08663385b99f2bd1551a49292a93b84e0a97b917b565bf41a'
+        name: '&aSortudo'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha mais sorte ao quebrar uma LuckyBlock.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: 'd8188345dc6a1bf08663385b99f2bd1551a49292a93b84e0a97b917b565bf41a'
         name: '&aSortudo'
@@ -1352,6 +1567,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '713b78b520781b5970c4e117274e9363e66721efd7bbe1959e266b98e37759ce'
+        name: '&aExplosao'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar um buraco.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '713b78b520781b5970c4e117274e9363e66721efd7bbe1959e266b98e37759ce'
         name: '&aExplosao'
@@ -1424,6 +1653,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: 'f073d84d6fda6a3404e77ad8d0f190893ae66d195fbb44d3c4607a6b71d9b9d5'
+        name: '&aLaser'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar um +.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: 'f073d84d6fda6a3404e77ad8d0f190893ae66d195fbb44d3c4607a6b71d9b9d5'
         name: '&aLaser'
@@ -1497,6 +1740,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: 'b59a2e83f20260e9caac53b4b3a6566b92d7dda3c42313363fa25443052b93d'
+        name: '&aFuradeira'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de varar a mina a partir'
+          - '&7do bloco que você quebrou.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: 'b59a2e83f20260e9caac53b4b3a6566b92d7dda3c42313363fa25443052b93d'
         name: '&aFuradeira'
@@ -1564,6 +1822,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
+        name: '&aMultiplicador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais blocos ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Multiplicador Atual: &b{multiplier}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
         name: '&aMultiplicador'
@@ -1630,6 +1902,20 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '9ac52419b99025828c89fa825945e6948e45bb5a22e4425a59e9096e4c1ac38'
+        name: '&aEletricidade'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais energia ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '9ac52419b99025828c89fa825945e6948e45bb5a22e4425a59e9096e4c1ac38'
         name: '&aEletricidade'
@@ -1705,6 +1991,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '7ff91e15b31fe4cfda13fb44634da87a75ba2c17fce7b524a55a314f5aa99d9f'
+        name: '&aEsfera'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar uma esfera.'
+          - '&7de blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '7ff91e15b31fe4cfda13fb44634da87a75ba2c17fce7b524a55a314f5aa99d9f'
         name: '&aEsfera'
@@ -1779,6 +2080,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '91b7a0c210e6cdf5a35fd8197e6e24a038315bbe3bdcd1bcc3630bf26f59ec5c'
+        name: '&aX'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar um X.'
+          - '&7de blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '91b7a0c210e6cdf5a35fd8197e6e24a038315bbe3bdcd1bcc3630bf26f59ec5c'
         name: '&aX'
@@ -1853,6 +2169,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: 'a8259df25c9de155b063cbef86646574d694eff3ad8d4d0cc64c4abc84d1441f'
+        name: '&aLinear'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar uma cruz.'
+          - '&7de blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: 'a8259df25c9de155b063cbef86646574d694eff3ad8d4d0cc64c4abc84d1441f'
         name: '&aLinear'
@@ -1927,6 +2258,21 @@ enchants:
           - '&f > Nível necessário: &a{level}&f.'
           - ''
           - '&cVocê não tem blocos ou nível suficientes.'
+      permission:
+        material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
+        name: '&aDestruidor Invertido'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7tenha chances de quebrar a coluna inteira.'
+          - '&7de blocos.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{yminaspackets} blocos&f.'
+          - '&f > Nível necessário: &a{level}&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
       maximum:
         material: '4f824d1622d00457816ba02c7fa6602d7d6d11dfa3c9684e0d94412ed59e8424'
         name: '&aDestruidor Invertido'
@@ -2262,6 +2608,11 @@ limit-broken-second: 10
 # Altura do void do seu servidor
 void-detect: 0
 
+# Tipo de reset da mina
+# NOVO: PROTOCOL-LIB = recomendado
+# ANTIGO: PACKET-EVENTS = mais rápido
+reset-type: 'PROTOCOL-LIB'
+
 general:
   # Abrir o menu ao digitar /mina
   mine-menu: true
@@ -2547,6 +2898,16 @@ specific-level:
 </code-block>
 </chapter>
 
+<chapter title="data.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+# Não altere nada nesta config.
+Data: {}
+Locations: {}
+]]>
+</code-block>
+</chapter>
+
 <chapter title="economies.yml" collapsible="true">
 <code-block lang="yaml" ignore-vars="true">
 <![CDATA[
@@ -2576,6 +2937,8 @@ economies:
     abbreviated: 'coins'
     # Permitir que comercializem na loja com o jogador offline
     allow-offline: true
+    # Permitir a fortuna multiplicar essa economia
+    allow-fortune: true
     # Permissão para o usuário conseguir definir esta economia
     permission: 'yminaspackets.provider.money'
     # Formato do símbolo
@@ -2602,6 +2965,8 @@ economies:
     symbol: '*'
     # Permitir que comercializem na loja com o jogador offline
     allow-offline: true
+    # Permitir a fortuna multiplicar essa economia
+    allow-fortune: true
     # Permissão para o usuário conseguir definir esta economia
     permission: 'yminaspackets.provider.yminaspackets'
     # ‘Item’ que aparecerá
@@ -3609,6 +3974,7 @@ block-upgrades-blocks:
   items:
     add-slot: 50
     level-slot: 52
+    economies-slot: 46
     lore:
       - ''
       - '&fChance: &a{chance}%'
@@ -3623,6 +3989,14 @@ block-upgrades-blocks:
       material: '924757bc9a3171f9d0fdfbd209ac42e15f7744eb5f2db31920ff8af8d94567c6'
       name: '&aAdicionar Bloco'
       lore: [ '&7Clique para adicionar mais', '&7um bloco na sua mina.' ]
+    economies:
+      material: 'e4d49bae95c790c3b1ff5b2f01052a714d6185481d5b1c85930b3f99d2321674'
+      name: '&aEconomias'
+      lore:
+        - '&7Economias que irá custar'
+        - '&7para comprar o upgrade.'
+        - ''
+        - '&aClique para configurar'
     level:
       material: '924757bc9a3171f9d0fdfbd209ac42e15f7744eb5f2db31920ff8af8d94567c6'
       name: '&aNível necessário'
@@ -3937,7 +4311,7 @@ chat:
   removed-level: '&aVocê removeu &f{level}&a níveis do jogador &f{player}&a.'
   give-energy: '&aVocê deu &f{energy}&a em energia para o jogador &f{player}&a.'
   removed-energy: '&aVocê removeu &f{energy}&a de energia do jogador &f{player}&a.'
-  reset-tool: '&aVocê resetou a picareta do jogador &f{player}&a.'
+  reset-tool: '&aVocê resetou a picareta do jogador &f{player} &7(porcentagem de devolução: {percentage}%)&a.'
   skin-found: '&cEsta skin não existe. Disponíveis: &7{list}'
   skin-give: '&bVocê deu uma skin para o jogador &f{player}&b.'
   skin-has: '&aVocê já possui esta skin ativada.'
@@ -3985,6 +4359,14 @@ chat:
   player-area-has: '&cO jogador {player} não possui esta área.'
   player-area-reset: '&aVocê resetou as áreas do jogador &f{player}&a.'
   enchantment-permission: '&cVocê não tem permissão para evoluir este encantamento.'
+  block-bought: '&aVocê comprou o upgrade de blocos.'
+  player-block-add: '&aVocê adicionou um bloco para o jogador &f{player}&a.'
+  player-block-remove: '&aVocê removeu um bloco do jogador &f{player}&a.'
+  player-block-has: '&cO jogador {player} não possui este bloco.'
+  player-block-reset: '&aVocê resetou os blocos do jogador &f{player}&a.'
+  mine-block-found: |
+    &cBloco não encontrado.
+    &cBlocos disponíveis: &f{list}
 ]]>
 </code-block>
 </chapter>
