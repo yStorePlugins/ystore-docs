@@ -159,14 +159,19 @@ Confira os arquivos de configuração deste plugin e revise os detalhes para gar
 <code-block lang="plain text" ignore-vars="true">
 Estrutura do diretório:
 └── yLobby/
+    ├── schema/
     ├── colors.yml
     ├── commands.yml
     ├── config.yml
     ├── custom-commands.yml
+    ├── data.yml
     ├── menus.yml
     ├── messages.yml
     └── servers.yml
 </code-block>
+</chapter>
+
+<chapter title="schema" collapsible="true">
 </chapter>
 
 <chapter title="colors.yml" collapsible="true">
@@ -1010,6 +1015,21 @@ Commands:
 </code-block>
 </chapter>
 
+<chapter title="data.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+# NÃO ALTERE NADA AQUI
+locations:
+  - 'none,none'
+
+spawn: 'none'
+x1pos1: 'none'
+x1pos2: 'none'
+ffa: 'none'
+]]>
+</code-block>
+</chapter>
+
 <chapter title="menus.yml" collapsible="true">
 <code-block lang="yaml" ignore-vars="true">
 <![CDATA[
@@ -1486,6 +1506,12 @@ servers:
       #   EX: MAP:0
       #   Recomendado offset: 4.1
       #
+      # MINIATURE-PETS: Utilize o nome do arquivo do pet
+      #   EX: Boxer.mpet
+      #
+      # MYTHIC-MOBS: Utilize o nome do mob
+      #   EX: SkeletonKnight
+      #
       skin-or-material: 'TheMage'
       hologram:
         offset: 3.1
@@ -1500,8 +1526,6 @@ servers:
 </chapter>
 
 </chapter>
-
-
 ## Erros comuns
 <primary-label ref="errors"/>
 
