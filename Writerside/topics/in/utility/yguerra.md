@@ -1008,11 +1008,7 @@ Formats:
 </chapter>
 
 <chapter title="data.yml" collapsible="true">
-<code-block lang="yaml" ignore-vars="true">
-<![CDATA[
-
-]]>
-</code-block>
+coçã
 </chapter>
 
 <chapter title="discord.yml" collapsible="true">
@@ -1054,10 +1050,6 @@ Embeds:
 </code-block>
 </chapter>
 
-</chapter>
-## CASO QUEIRA CRIAR OUTROS ITENS PARA ENFEITAR TEU MENU, ABAIXO DE ITENS: -> SAIR:, COPIE E COLE E MUDE O NOME E AS INFORMAÇÕES :)
-]]>
-</code-block>
 </chapter>
 
 <chapter title="principal.yml" collapsible="true">
@@ -1177,8 +1169,6 @@ Formato:
    Selecionar: ' &f• &7{nome}'
 ]]>
 </code-block>
-</chapter>
-
 </chapter>
 
 <chapter title="tipos" collapsible="true">
@@ -1776,7 +1766,6 @@ Embeds:
 </code-block>
 </chapter>
 
-</chapter>
 ## API
 <primary-label ref="api"/>
 
