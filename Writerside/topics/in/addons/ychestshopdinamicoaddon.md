@@ -50,6 +50,37 @@ maximum:
   # Máximo que o preço poderá flutuar a cada operação de compra e venda
   # em porcentagem
   adjust: 5.0
+
+# Tempo em segundos para normalizar o preço do shop aos poucos
+# deixe 0 para não ter normalização sem novas transações
+time-reduce: 60
+]]>
+</code-block>
+</chapter>
+
+</chapter>
+<chapter title="Arquivos de Configuração" collapsible="true">
+<chapter title="Estrutura do diretório" collapsible="false">
+<code-block lang="plain text" ignore-vars="true">
+Estrutura do diretório:
+└── yChestShopDinamicoAddon/
+    └── config.yml
+</code-block>
+</chapter>
+
+<chapter title="config.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+maximum:
+  # Máximo que o preço poderá subir
+  # em porcentagem
+  add: 100.0
+  # Máximo que o preço poderá diminuir (cair)
+  # em porcentagem
+  remove: -90.0
+  # Máximo que o preço poderá flutuar a cada operação de compra e venda
+  # em porcentagem
+  adjust: 5.0
 ]]>
 </code-block>
 </chapter>
