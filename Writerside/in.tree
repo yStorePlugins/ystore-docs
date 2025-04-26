@@ -37,6 +37,7 @@
         <toc-element topic="ymarket.md"/>
         <toc-element topic="ymobsetspawn.md"/>
         <toc-element topic="ypayments.md"/>
+        <toc-element topic="yplayershop.md"/>
         <toc-element topic="ypoints.md"/>
         <toc-element topic="ypreferencias.md"/>
         <toc-element topic="ypunish.md"/>
@@ -44,13 +45,13 @@
         <toc-element topic="yreports.md"/>
         <toc-element topic="yscreenshare.md"/>
         <toc-element topic="yshop.md"/>
+        <toc-element topic="ystackdrops.md"/>
         <toc-element topic="ystafflogin.md"/>
         <toc-element topic="ytaxarban.md"/>
         <toc-element topic="ytickets.md"/>
         <toc-element topic="ytops.md"/>
         <toc-element topic="ytrades.md"/>
         <toc-element topic="ytutorial.md"/>
-        <toc-element topic="yplayershop.md"/>
         <toc-element topic="yvips.md"/>
     </toc-element>
     <toc-element topic="rankup.md">
