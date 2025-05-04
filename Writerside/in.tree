@@ -2,6 +2,7 @@
 <instance-profile id="in" is-library="false" name="Documentação yStore" start-page="documentation.md" status="Release">
     <toc-element topic="documentation.md"/>
     <toc-element topic="yplugins.md"/>
+    <toc-element topic="items.md"/>
     <toc-element topic="discord.md">
         <toc-element topic="link-account.md"/>
         <toc-element topic="medals.md"/>
