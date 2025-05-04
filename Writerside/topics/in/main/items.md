@@ -1,37 +1,37 @@
 # Como usar o ItemStack Builder
 
 ### Exemplo Completo de Configuração
-
-Aqui está um exemplo completo de como poderia ser uma configuração com todas as opções mencionadas:
-
-```yaml
-id: 'DIAMOND_SWORD'
-data: 5
-amount: 3
-name: '&6Espada de Diamante'
-lore:
-  - '&7A espada mais forte do mundo'
-  - '&6Aproveite sua jornada!'
-glow: true
-custom-skull: true
-url: 'http://textures.minecraft.net/texture/abc123'
-hide-attributes: true
-hide-potion-effects: true
-hide-unbreakable: true
-hide-destroys: true
-hide-placed-on: true
-hide-enchants: true
-disable-metadata: true
-flags:
-  - 'HIDE_ENCHANTS'
-  - 'HIDE_UNBREAKABLE'
-custom-model-data: 123
-color: '255:0:0'
-nbt-tag:
-  - 'CustomName=>Espada do Herói'
-effects:
-  - 'SPEED-true-false'
-```
+<procedure title="Exemplo Completo de Configuração">
+   <p>Aqui está um exemplo completo de como poderia ser uma configuração com todas as opções mencionadas:</p>
+   <code-block lang="yaml">
+      id: 'DIAMOND_SWORD'
+      data: 5
+      amount: 3
+      name: '&6Espada de Diamante'
+      lore:
+        - '&7A espada mais forte do mundo'
+        - '&6Aproveite sua jornada!'
+      glow: true
+      custom-skull: true
+      url: 'http://textures.minecraft.net/texture/abc123'
+      hide-attributes: true
+      hide-potion-effects: true
+      hide-unbreakable: true
+      hide-destroys: true
+      hide-placed-on: true
+      hide-enchants: true
+      disable-metadata: true
+      flags:
+        - 'HIDE_ENCHANTS'
+        - 'HIDE_UNBREAKABLE'
+      custom-model-data: 123
+      color: '255:0:0'
+      nbt-tag:
+        - 'CustomName=>Espada do Herói'
+      effects:
+        - 'SPEED-true-false'
+   </code-block>
+</procedure>
 
 <procedure title="Opções Disponíveis na Configuração">
   <p>Aqui estão os parâmetros que podem ser passados e seus respectivos efeitos:</p>
