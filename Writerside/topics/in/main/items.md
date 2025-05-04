@@ -34,88 +34,129 @@
 </procedure>
 
 ### Opções Disponíveis na Configuração
-Aqui estão os parâmetros que podem ser passados e seus respectivos efeitos:
+<procedure title="Opções Disponíveis na Configuração">
+   <p>Aqui estão os parâmetros que podem ser passados para o `section` e seus respectivos efeitos:</p>
+   
+   <step><b>id / ID / material / Material</b>: 
+      <p>Define o tipo de material do item. Pode ser um nome de material do Minecraft (ex: `STONE`, `IRON_SWORD`), o id de um material (ex: `1` para `STONE`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">id: 'DIAMOND_SWORD'</code-block>
+      <code-block lang="yaml">id: '1'</code-block>
+      <code-block lang="yaml">id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'</code-block>
+      <code-block lang="yaml">id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'</code-block>
+   </step>
 
-### `id / ID / material / Material`
-- **Descrição**: Define o tipo de material do item. Pode ser um nome de material do Minecraft (ex: `STONE`, `IRON_SWORD`), o id de um material (ex: `1` para `STONE`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.
-- **Exemplo**: `"id: 'DIAMOND_SWORD'"`
-- **Exemplo**: `"id: '1'"`
-- **Exemplo**: `"id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'"`
-- **Exemplo**: `"id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'"`
-  
-### `data / Data`
-- **Descrição**: Especifica o valor de dados para o item, caso o material possua variações (ex: cor de couro ou tipo de bloco).
-- **Exemplo**: `"data: 5"`
-  
-### `amount / Amount`
-- **Descrição**: Define a quantidade do item. O valor padrão é 1 se não especificado.
-- **Exemplo**: `"amount: 5"`
-  
-### `name / Name`
-- **Descrição**: Define o nome do item. O nome pode ser estilizado com códigos de cor (`&`).
-- **Exemplo**: `"name: '&6Espada de Diamante'"`
-  
-### `lore / Lore`
-- **Descrição**: Define a descrição do item. A descrição pode ser estilizada com códigos de cor (`&`).
-- **Exemplo**: `"lore: ['&7A espada mais forte do mundo']"`
-  
-### `glow / Glow`
-- **Descrição**: Define se o item terá o efeito de brilho. Se `true`, o item brilhará.
-- **Exemplo**: `"glow: true"`
-  
-### `custom-skull / CustomSkull`
-- **Descrição**: Define se o item será uma cabeça personalizada (ex: uma cabeça de jogador ou uma cabeça com textura customizada).
-- **Exemplo**: `"custom-skull: true"`
-- Caso seja `true`, a URL da cabeça será configurada em `url`.
-  
-### `url / URL`
-- **Descrição**: URL de uma imagem personalizada usada para itens do tipo "skull" (cabeça). Isso é utilizado quando o item é uma cabeça customizada.
-- **Exemplo**: `"url: 'http://textures.minecraft.net/texture/abc123'"`
-  
-### `hide-attributes`
-- **Descrição**: Se `true`, oculta os atributos do item.
-- **Exemplo**: `"hide-attributes: true"`
-  
-### `hide-potion-effects`
-- **Descrição**: Se `true`, oculta os efeitos da poção.
-- **Exemplo**: `"hide-potion-effects: true"`
-  
-### `hide-unbreakable`
-- **Descrição**: Se `true`, oculta a informação de que o item é inquebrável.
-- **Exemplo**: `"hide-unbreakable: true"`
-  
-### `hide-destroys`
-- **Descrição**: Se `true`, oculta os blocos que o item pode destruir.
-- **Exemplo**: `"hide-destroys: true"`
-  
-### `hide-placed-on`
-- **Descrição**: Se `true`, oculta os blocos onde o item pode ser colocado.
-- **Exemplo**: `"hide-placed-on: true"`
-  
-### `hide-enchants`
-- **Descrição**: Se `true`, oculta os encantamentos do item.
-- **Exemplo**: `"hide-enchants: true"`
-  
-### `disable-metadata`
-- **Descrição**: Se `true`, desativa a adição de metadados NBT no item.
-- **Exemplo**: `"disable-metadata: true"`
-  
-### `flags`
-- **Descrição**: Define as flags do item. As flags alteram o comportamento e a aparência do item.
-- **Exemplo**: `"flags: ['HIDE_ENCHANTS', 'HIDE_UNBREAKABLE']"`
-  
-### `custom-model-data`
-- **Descrição**: Define o ID do modelo customizado para o item, permitindo usar modelos personalizados.
-- **Exemplo**: `"custom-model-data: 123"`
-  
-### `color`
-- **Descrição**: Define a cor do item. Usado principalmente em armaduras de couro.
-- **Exemplo**: `"color: '255:0:0'"` (representa a cor vermelha em RGB).
-  
-### `nbt-tag / nbt-tag-int / nbt-tag-short / nbt-tag-byte`
-- **Descrição**: Define os NBT tags adicionais para o item. São usados para armazenar dados extras no item (ex: etiquetas personalizadas, atributos adicionais).
-- **Exemplo**: `"nbt-tag: ['CustomName=>Meu Item']"`
+   <step><b>data / Data</b>: 
+      <p>Especifica o valor de dados para o item, caso o material possua variações (ex: cor de couro ou tipo de bloco).</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">data: 5</code-block>
+   </step>
 
-### `effects`
-- **Descrição**: Define os efeitos de poção para itens do tipo `POTION`. O formato é `"POTION_TYPE-EXTEND-UPGRADE"`.
-- **Exemplo**: `"effects: ['SPEED-true-false']"`
+   <step><b>amount / Amount</b>: 
+      <p>Define a quantidade do item. O valor padrão é 1 se não especificado.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">amount: 5</code-block>
+   </step>
+
+   <step><b>name / Name</b>: 
+      <p>Define o nome do item. O nome pode ser estilizado com códigos de cor (`&`).</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">name: '&6Espada de Diamante'</code-block>
+   </step>
+
+   <step><b>lore / Lore</b>: 
+      <p>Define a descrição do item. A descrição pode ser estilizada com códigos de cor (`&`).</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">lore: ['&7A espada mais forte do mundo']</code-block>
+   </step>
+
+   <step><b>glow / Glow</b>: 
+      <p>Define se o item terá o efeito de brilho. Se `true`, o item brilhará.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">glow: true</code-block>
+   </step>
+
+   <step><b>custom-skull / CustomSkull</b>: 
+      <p>Define se o item será uma cabeça personalizada (ex: uma cabeça de jogador ou uma cabeça com textura customizada).</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">custom-skull: true</code-block>
+   </step>
+
+   <step><b>url / URL</b>: 
+      <p>URL de uma imagem personalizada usada para itens do tipo "skull" (cabeça). Isso é utilizado quando o item é uma cabeça customizada.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">url: 'http://textures.minecraft.net/texture/abc123'</code-block>
+   </step>
+
+   <step><b>hide-attributes</b>: 
+      <p>Se `true`, oculta os atributos do item.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-attributes: true</code-block>
+   </step>
+
+   <step><b>hide-potion-effects</b>: 
+      <p>Se `true`, oculta os efeitos da poção.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-potion-effects: true</code-block>
+   </step>
+
+   <step><b>hide-unbreakable</b>: 
+      <p>Se `true`, oculta a informação de que o item é inquebrável.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-unbreakable: true</code-block>
+   </step>
+
+   <step><b>hide-destroys</b>: 
+      <p>Se `true`, oculta os blocos que o item pode destruir.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-destroys: true</code-block>
+   </step>
+
+   <step><b>hide-placed-on</b>: 
+      <p>Se `true`, oculta os blocos onde o item pode ser colocado.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-placed-on: true</code-block>
+   </step>
+
+   <step><b>hide-enchants</b>: 
+      <p>Se `true`, oculta os encantamentos do item.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">hide-enchants: true</code-block>
+   </step>
+
+   <step><b>disable-metadata</b>: 
+      <p>Se `true`, desativa a adição de metadados NBT no item.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">disable-metadata: true</code-block>
+   </step>
+
+   <step><b>flags</b>: 
+      <p>Define as flags do item. As flags alteram o comportamento e a aparência do item.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">flags: ['HIDE_ENCHANTS', 'HIDE_UNBREAKABLE']</code-block>
+   </step>
+
+   <step><b>custom-model-data</b>: 
+      <p>Define o ID do modelo customizado para o item, permitindo usar modelos personalizados.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">custom-model-data: 123</code-block>
+   </step>
+
+   <step><b>color</b>: 
+      <p>Define a cor do item. Usado principalmente em armaduras de couro.</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">color: '255:0:0'</code-block>
+   </step>
+
+   <step><b>nbt-tag / nbt-tag-int / nbt-tag-short / nbt-tag-byte</b>: 
+      <p>Define os NBT tags adicionais para o item. São usados para armazenar dados extras no item (ex: etiquetas personalizadas, atributos adicionais).</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">nbt-tag: ['CustomName=>Meu Item']</code-block>
+   </step>
+
+   <step><b>effects</b>: 
+      <p>Define os efeitos de poção para itens do tipo `POTION`. O formato é `"POTION_TYPE-EXTEND-UPGRADE`".</p>
+      <p><b>Exemplo:</b></p>
+      <code-block lang="yaml">effects: ['SPEED-true-false']</code-block>
+   </step>
+</procedure>
