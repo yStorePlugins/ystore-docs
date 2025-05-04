@@ -38,14 +38,14 @@
    <p>Aqui estão os parâmetros que podem ser passados para o `section` e seus respectivos efeitos:</p>
    
    <step><b>id / ID / material / Material</b>: 
-      <p>Define o tipo de material do item. Pode ser um nome de material do Minecraft (com ou sem data) (ex: `STONE`, `IRON_SWORD`, `STONE:1`), o id de um material (com ou sem data) (ex: `1` para `STONE`, `1:1` para `STONE:1`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.</p>
+      <p>Define o tipo de material do item. Pode ser um nome de material do Minecraft (com ou sem data) (ex: <b>STONE</b>, <b>IRON_SWORD</b>, <b>STONE:1</b>), o id de um material (com ou sem data) (ex: <b>1</b> para <b>STONE</b>, <b>1:1</b> para <b>STONE:1</b>), o id de um item criado pelo yPlugins ou um id de uma cabeça do <b>minecraft-heads.com</b>.</p>
       <p><b>Exemplo:</b></p>
-      <code-block lang="yaml">id: 'DIAMOND_SWORD'</code-block>
-      <code-block lang="yaml">id: 'STONE:1'</code-block>
-      <code-block lang="yaml">id: '1'</code-block>
-      <code-block lang="yaml">id: '1:1'</code-block>
-      <code-block lang="yaml">id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'</code-block>
-      <code-block lang="yaml">id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'</code-block>
+      <code-block lang="yaml">material: 'DIAMOND_SWORD'</code-block>
+      <code-block lang="yaml">material: 'STONE:1'</code-block>
+      <code-block lang="yaml">material: '1'</code-block>
+      <code-block lang="yaml">material: '1:1'</code-block>
+      <code-block lang="yaml">material: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'</code-block>
+      <code-block lang="yaml">material: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'</code-block>
    </step>
 
    <step><b>data / Data</b>: 
@@ -61,19 +61,19 @@
    </step>
 
    <step><b>name / Name</b>: 
-      <p>Define o nome do item. O nome pode ser estilizado com códigos de cor (`&`).</p>
+      <p>Define o nome do item. O nome pode ser estilizado com códigos de cor (<b>&</b>).</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">name: '&6Espada de Diamante'</code-block>
    </step>
 
    <step><b>lore / Lore</b>: 
-      <p>Define a descrição do item. A descrição pode ser estilizada com códigos de cor (`&`).</p>
+      <p>Define a descrição do item. A descrição pode ser estilizada com códigos de cor (<b>&</b>).</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">lore: ['&7A espada mais forte do mundo']</code-block>
    </step>
 
    <step><b>glow / Glow</b>: 
-      <p>Define se o item terá o efeito de brilho. Se `true`, o item brilhará.</p>
+      <p>Define se o item terá o efeito de brilho. Se <b>true</b>, o item brilhará.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">glow: true</code-block>
    </step>
@@ -91,43 +91,43 @@
    </step>
 
    <step><b>hide-attributes</b>: 
-      <p>Se `true`, oculta os atributos do item.</p>
+      <p>Se <b>true</b>, oculta os atributos do item.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-attributes: true</code-block>
    </step>
 
    <step><b>hide-potion-effects</b>: 
-      <p>Se `true`, oculta os efeitos da poção.</p>
+      <p>Se <b>true</b>, oculta os efeitos da poção.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-potion-effects: true</code-block>
    </step>
 
    <step><b>hide-unbreakable</b>: 
-      <p>Se `true`, oculta a informação de que o item é inquebrável.</p>
+      <p>Se <b>true</b>, oculta a informação de que o item é inquebrável.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-unbreakable: true</code-block>
    </step>
 
    <step><b>hide-destroys</b>: 
-      <p>Se `true`, oculta os blocos que o item pode destruir.</p>
+      <p>Se <b>true</b>, oculta os blocos que o item pode destruir.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-destroys: true</code-block>
    </step>
 
    <step><b>hide-placed-on</b>: 
-      <p>Se `true`, oculta os blocos onde o item pode ser colocado.</p>
+      <p>Se <b>true</b>, oculta os blocos onde o item pode ser colocado.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-placed-on: true</code-block>
    </step>
 
    <step><b>hide-enchants</b>: 
-      <p>Se `true`, oculta os encantamentos do item.</p>
+      <p>Se <b>true</b>, oculta os encantamentos do item.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">hide-enchants: true</code-block>
    </step>
 
    <step><b>disable-metadata</b>: 
-      <p>Se `true`, desativa a adição de metadados NBT no item.</p>
+      <p>Se <b>true</b>, desativa a adição de metadados NBT no item.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">disable-metadata: true</code-block>
    </step>
@@ -152,12 +152,14 @@
 
    <step><b>nbt-tag / nbt-tag-int / nbt-tag-short / nbt-tag-byte</b>: 
       <p>Define os NBT tags adicionais para o item. São usados para armazenar dados extras no item (ex: etiquetas personalizadas, atributos adicionais).</p>
+      <p>Há uma NBT-Tag geral para a execução de comandos em itens de "enfeite" nos menus dos plugins: <b>"yStore-Menu-Command"</b></p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">nbt-tag: ['CustomName=>Meu Item']</code-block>
+      <code-block lang="yaml">nbt-tag: ['yStore-Menu-Command=>sudo {player} /g oi']</code-block>
    </step>
 
    <step><b>effects</b>: 
-      <p>Define os efeitos de poção para itens do tipo `POTION`. O formato é `"POTION_TYPE-EXTEND-UPGRADE`".</p>
+      <p>Define os efeitos de poção para itens do tipo <b>POTION</b>. O formato é <b>"POTION_TYPE-EXTEND-UPGRADE"</b>.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">effects: ['SPEED-true-false']</code-block>
    </step>
