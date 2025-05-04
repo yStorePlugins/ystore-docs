@@ -34,15 +34,15 @@ effects:
 ```
 
 <procedure title="Opções Disponíveis na Configuração">
-  
-  Aqui estão os parâmetros que podem ser passados e seus respectivos efeitos:
-  
-  ### `id / ID / material / Material`
-  - **Descrição**: Define o tipo de material do item. Pode ser um nome de material do Minecraft (ex: `STONE`, `IRON_SWORD`), o id de um material (ex: `1` para `STONE`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.
-  - **Exemplo**: `"id: 'DIAMOND_SWORD'"`
-  - **Exemplo**: `"id: '1'"`
-  - **Exemplo**: `"id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'"`
-  - **Exemplo**: `"id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'"`
+  <p>Aqui estão os parâmetros que podem ser passados e seus respectivos efeitos:</p>
+  <step>
+    ### `id / ID / material / Material`
+    - **Descrição**: Define o tipo de material do item. Pode ser um nome de material do Minecraft (ex: `STONE`, `IRON_SWORD`), o id de um material (ex: `1` para `STONE`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.
+    - **Exemplo**: `"id: 'DIAMOND_SWORD'"`
+    - **Exemplo**: `"id: '1'"`
+    - **Exemplo**: `"id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'"`
+    - **Exemplo**: `"id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'"`
+  </step>
   
   ### `data / Data`
   - **Descrição**: Especifica o valor de dados para o item, caso o material possua variações (ex: cor de couro ou tipo de bloco).
