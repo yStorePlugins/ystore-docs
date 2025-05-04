@@ -38,10 +38,12 @@
    <p>Aqui estão os parâmetros que podem ser passados para o `section` e seus respectivos efeitos:</p>
    
    <step><b>id / ID / material / Material</b>: 
-      <p>Define o tipo de material do item. Pode ser um nome de material do Minecraft (ex: `STONE`, `IRON_SWORD`), o id de um material (ex: `1` para `STONE`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.</p>
+      <p>Define o tipo de material do item. Pode ser um nome de material do Minecraft (com ou sem data) (ex: `STONE`, `IRON_SWORD`, `STONE:1`), o id de um material (com ou sem data) (ex: `1` para `STONE`, `1:1` para `STONE:1`), o id de um item criado pelo yPlugins ou um id de uma cabeça do `minecraft-heads.com`.</p>
       <p><b>Exemplo:</b></p>
       <code-block lang="yaml">id: 'DIAMOND_SWORD'</code-block>
+      <code-block lang="yaml">id: 'STONE:1'</code-block>
       <code-block lang="yaml">id: '1'</code-block>
+      <code-block lang="yaml">id: '1:1'</code-block>
       <code-block lang="yaml">id: '[YSTORE_ITEM]i2h3do2h42p2po42iog42opj42in'</code-block>
       <code-block lang="yaml">id: 'c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6'</code-block>
    </step>
