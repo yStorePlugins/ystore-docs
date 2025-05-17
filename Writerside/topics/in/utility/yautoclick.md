@@ -35,6 +35,84 @@ yautoclick.all - Permissão para conseguir matar todos os mobs</code-block>
 
 
 
+## Configuração
+<primary-label ref="config"/>
+Confira os arquivos de configuração deste plugin e revise os detalhes para garantir uma implementação correta.
+
+<chapter title="Arquivos de Configuração" collapsible="true">
+<chapter title="Estrutura do diretório" collapsible="false">
+<code-block lang="plain text" ignore-vars="true">
+Estrutura do diretório:
+└── yAutoClick/
+    ├── config.yml
+    └── mobs.yml
+</code-block>
+</chapter>
+
+<chapter title="config.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+# Comandos e aliases do plugin
+Comando:
+   Autoclick:
+      Comando: 'autoclick'
+      Aliases: [ ac ]
+
+# Opções gerais do plugin
+Opcoes:
+   Delay: 30 #em ticks, ex: 20 ticks = 1 segundo, 30 ticks = 1,5 segundos.
+   RaioX: 3
+   RaioY: 3
+   RaioZ: 3
+   # Mundos onde será permitido o uso do AutoClick
+   Mundos permitidos:
+      - 'world'
+   # Permitir somente na plot (PlotSquared)
+   Somente plot: false
+   # Não quebrar a espada ao usar o AutoClick
+   Inquebravel: true
+   # Acréscimo de XP do mcMMO para quando o jogador tiver poção de força
+   Mcmmo forca:
+      Espadas: 20.0
+      Machados: 20.0
+      Unarmed: 20.0
+
+# Mensagens gerais do plugin
+Mensagens:
+   Permissao: '&cVocê não tem permissão para isto!'
+   Ativado: '&aO Auto-Click foi &eATIVADO&a com sucesso!'
+   Desativado: '&aO Auto-Click foi &eDESATIVADO&a com sucesso!'
+
+# Nomes das skills do mcMMO
+Skills:
+   Desarmado: 'UNARMED'
+   Espadas: 'SWORDS'
+   Machados: 'AXES'
+]]>
+</code-block>
+</chapter>
+
+<chapter title="mobs.yml" collapsible="true">
+<code-block lang="yaml" ignore-vars="true">
+<![CDATA[
+Mobs:
+   COW:
+      Permissao: 'yautoclick.vaca'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   SHEEP:
+      Permissao: 'yautoclick.ovelha'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+]]>
+</code-block>
+</chapter>
+
+</chapter>
 ## Erros comuns
 <primary-label ref="errors"/>
 
